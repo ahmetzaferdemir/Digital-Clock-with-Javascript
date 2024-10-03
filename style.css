@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat,sans-serif,serif;
+}
+
+.saat-container{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div[class^="col"]{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer > div{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
