@@ -59,17 +59,11 @@
         let saat = document.getElementById("saat");
         let dakika = document.getElementById("dakika");
         let saniye = document.getElementById("saniye");
-        let ezanSesi = document.getElementById("ezan");
-        let bildirim =document.getElementById("bildirim");
 
         setInterval(() => {
             saat.innerHTML = new Date().getHours();
             dakika.innerHTML = new Date().getMinutes();
             saniye.innerHTML = new Date().getSeconds();
-
-            var islemSaat = 19;
-            var islemDakika = 33;
-            var islemSaniye = 0;
         }, 1000);
 
     </script>
